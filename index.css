@@ -1,10 +1,10 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+  
 
     body {
         width: 1280px;
-        height: 3796px;
+        
         font-family: Arial, Helvetica, sans-serif;
         font-family: Georgia, sans-serif;
         position: relative;
@@ -21,15 +21,12 @@
     justify-content: space-between;
     padding-left: 40px;
     padding-top: 30px;
-
-
 }
 
 .header_navigation {
     padding-top: 16px;
     padding-bottom: 20px;
     margin-right: -9px;
-
 }
 .navigation {
     display: flex;
@@ -43,16 +40,11 @@
     cursor: pointer;
 }
 
-
-
-
-
 .start_screen {
     position: relative;
     width: 1280px;
     height: 908px; 
     background-image: url(images/start-screen-gradient-background.jpg);
-
 
 }
 .startscreen_content {
@@ -62,11 +54,7 @@
     left: 40px;
     right: 40px;
     bottom: 0px;
-    
     display: flex ;
-    
-
-
 }
 .content {
     width: 460px;
@@ -87,7 +75,6 @@ h2 {
 }
 p {
     width: 460px;
-    height: 156px;
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
@@ -126,12 +113,8 @@ p {
     width: 1280px;
     height: 588px;
     position: relative;
-   
-
-
-
-
 }
+
 .about_content {
     width: 1200px;
     height: 408px;
@@ -141,23 +124,14 @@ p {
    
     display: flex;
     
-    
- 
-
 }
 .about_pets {
  width: 300px;
 height: 408px;
 padding-top: 0px;
 padding-left: 175px;
-
-
-
-    
-
-
-
 }
+
 .pets_content {
     width: 430px;
     height: 380px;
@@ -204,12 +178,12 @@ padding-left: 175px;
     
 .pets_wrapper {
     
-    height: 877px;
+    height: 796px;
     top: 1496px;
    
     gap: 0px;
     opacity: 0px;
-    background-color: brown;
+    background-color: #f6f6f6;
     padding-top: 80px;
     padding-left: 40px;
     
@@ -217,22 +191,20 @@ padding-left: 175px;
 .pets_content1 {
     width: 1200px;
     height: 697px;
-    
-    background-color: #545454;
-
-    
-
 }
+
 .pets_heading {
 width: 400px;
 height: 90px;
-
-background-color: aqua;
+text-align: center;
+letter-spacing: 2px;
 color: #545454;
 font-family: Georgia,  serif, sans-serif;
 font-size: 35px;
 line-height: 45.5px;
 font-weight: 400;
+margin-left: 400px;
+
 
 
 gap: 0px;
@@ -245,21 +217,38 @@ height: 435px;
 margin-top: 60px;
 gap: 0px;
 opacity: 0px;
-background-color: thistle;
 display: flex;
-justify-content: space-between;
+
 align-items: center;
 }
-.button_arrowleft {
 
-}
-.button_arrowright {
-
-}
 .primary {
-
+    width: 261px;
+    height: 52px;
+    border-radius: 100px;
+    background-color: #f1cdb3;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: #f1cdb3;
+    margin: 60px 469px;
+    letter-spacing: 1px;
 }
 .pet_img {
+    height: 270px;
+    width: 270px;
+    border-radius: 9px;
+   
+
+}
+.pet_img2 {
+    height: 270px;
+    width: 270px;
+    border-radius: 9px;
+  
+}
+.pet_img3 {
     height: 270px;
     width: 270px;
     border-radius: 9px;
@@ -269,6 +258,9 @@ align-items: center;
     height: 435px;
     display: flex;
     flex-direction: column;
+    margin-left: 53px;
+    background-color: #fafafa;
+    border-radius: 9px;
     
 }
 .jennifer {
@@ -276,6 +268,9 @@ align-items: center;
     height: 435px;
   display: flex;
     flex-direction: column;  
+    margin-left: 90px;
+    background-color: #fafafa;
+    border-radius: 9px;
     
 }
 .woody {
@@ -283,6 +278,9 @@ align-items: center;
     height: 435px;
     display: flex;
     flex-direction: column;
+    margin-left: 90px;
+    background-color: #fafafa;
+    border-radius: 9px;
     
 }
 .butt_pets {
@@ -290,17 +288,516 @@ align-items: center;
     height: 52px;
     border-radius: 100px;
     border: 2px solid #f1cdb3;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    margin-left: 41px;
+    letter-spacing: 1px;
+    padding-top: 1px;
+    background-color: #fafafa;
+ 
+}
+.butt_pets2 {
+    width: 187px;
+    height: 52px;
+    border-radius: 100px;
+    border: 2px solid #f1cdb3;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    margin-left: 41px;
+    letter-spacing: 1px;
+    padding-top: 1px;
+    background-color: #fafafa;
+   
+
+}
+.butt_pets3 {
+    width: 187px;
+    height: 52px;
+    border-radius: 100px;
+    border: 2px solid #f1cdb3;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    margin-left: 41px;
+    letter-spacing: 1px;
+    padding-top: 1px;
+    background-color: #fafafa;
+    
 }
 .button_arrow {
     width: 52px;
     height: 52px;
     border-radius: 100px;
     border: 2px solid #f1cdb3;
-
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #fafafa
 }
+.button_arrow2 {
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    border: 2px solid #f1cdb3;
+    margin-left: 53px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #fafafa
+}
+
 .txt {
     font-size: 20px;
     font-weight: 400;
-    line-height: 22.72px;
+    letter-spacing: 1px;
+    line-height: 22.75px;
+    padding: 30px 98px;
+  
     
+}
+.txt2 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 22.75px;
+    padding: 30px 94px;  
+}
+.txt3 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 22.75px;
+    padding: 30px 101px; 
+}
+
+.wrapper_help{
+    height: 611px;
+    display: flex;
+    align-items: center;
+}
+.help_content{
+    width: 1200px;
+    height: 431px;
+    margin-top: -20px;
+    margin-left: 40px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.heading_help{
+    width: 308px;
+    height: 90px;
+    text-align: center;
+    letter-spacing: 1.98px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    color: #545454;  
+}
+
+.list {
+    width: 1026px;
+height: 281px;
+top: 150px;
+left: 87px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-top: 60px;
+    
+
+}
+.help_cont1 {
+width: 82px;
+height: 113px;
+display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+.help_img1 {
+    width: 60px;
+    height: 60px;
+    padding-left: 11px;
+
+}
+.txt_help1 {
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 1.1px;
+margin-bottom: 30px;
+padding-top: 30px;
+ 
+
+}
+
+
+
+.help_cont2 {
+    width: 150px;
+    height: 113px;
+    margin-left: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between; 
+   
+}
+.help_img2 {
+    width: 60px;
+    height: 60px;
+    padding-left: 45px;
+}
+.txt_help2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.2px;
+    padding-top: 30px;
+    
+    
+}
+
+.help_cont3 {
+    width: 60px;
+    height: 113px;
+    margin-left: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;  
+}
+.help_img3 {
+    width: 60px;
+    height: 60px;
+    
+}
+.txt_help3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    padding-left: 7px;
+}
+
+.help_cont4 {
+    width: 153px;
+    height: 113px;
+    margin-left: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.help_img4 {
+    width: 60px;
+    height: 60px;
+    padding-left: 47px;
+}
+.txt_help4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.16px;
+}
+
+
+.help_cont5 {
+    width: 101px;
+    height: 113px;
+    margin-left: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between; 
+}
+.help_img5 {
+    width: 60px;
+    height: 60px;
+    padding-left: 21px;
+}
+.txt_help5 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.2px;
+}
+
+
+.help_cont6 {
+    width: 89px;
+    height: 113px;
+    margin-left: 84px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;  
+}
+.help_img6 {
+    width: 60px;
+    height: 60px;
+    padding-left: 14px;
+}
+.txt_help6 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.2px;
+}
+
+.help_cont7 {
+    width: 101px;
+    height: 113px;
+    margin-left: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between; 
+}
+.help_img7 {
+    width: 60px;
+    height: 60px;
+    padding-left: 21px;
+}
+.txt_help7 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.2px;
+}
+
+.help_cont8 {
+    width: 165px;
+    height: 113px;
+    margin-left: 120px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;  
+}
+.help_img8 {
+    width: 60px;
+    height: 60px;
+    padding-left: 53px;
+}
+.txt_help8 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.17px;
+}
+
+.help_cont9 {
+    width: 143px;
+    height: 113px;
+    margin-left: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;  
+}
+.help_img9 {
+    width: 60px;
+    height: 60px;
+    padding-left: 42px;
+}
+.txt_help9 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.14px;
+}
+
+
+.wrapper_don{
+    height: 462px;
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    
+}
+.don_content {
+width: 915px;
+height: 282px;
+margin-top: 80px;
+display: flex;
+
+
+
+}
+.donation_dog {
+    width: 505px;
+    height: 261px;
+    padding: 11px 0px;
+    
+}
+.donation_info {
+
+padding: 0 30px;
+}
+.heading_donation {
+    width: 300px;
+height: 90px;
+font-weight: 400;
+font-size: 35px;
+line-height: 45.5px;
+letter-spacing: 2px;
+color: #545454;
+
+
+}
+.subheading_donation {
+    width: 307px;
+    height: 17px;
+    margin-top: 21px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16.5px;
+    letter-spacing: 0.87px;
+    color: #545454;
+    
+ 
+}
+.card {
+    width:349px;
+    height:43px;
+    margin: 17px 0px;
+    border-radius: 9px;
+    background-color: #f1cdb3;
+    
+}
+.card_img {
+  margin:  10px 15px;  
+    
+}
+.card_number {
+    width: 273px;
+    height: 18px;
+    margin: 11px -3px ;
+   
+   
+  
+    
+}
+.donation_text {
+    width: 380px;
+    height: 72px;
+    padding:  4px 0px 0px 0px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 18px;
+   letter-spacing: 0.01px;
+   color:#B2B2B2;  
+}
+
+.wrapper_footer {
+   
+    background-image: url(images/footer-background.png);
+padding-top: 40px;
+padding-left: 40px;
+}
+.footer_content {
+width: 1200px;
+font: 310px;
+
+display: flex;
+justify-content: space-between;
+}
+.footer_contacts {
+width: 278px;
+height: 234px;
+
+margin: 16px 160px 60px 0px;
+}
+.footer_txt {
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: white;
+}
+.footer_locations {
+    width: 302px;
+    height: 234px;
+    margin: 16px 160px 60px 0px;
+
+} 
+.email {
+    display: flex;
+    align-items: center;
+   padding: 40px 27px 40px 0px;
+}
+.email_img {
+    width: 40px;
+    height: 32px;
+}
+.email_adr {
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 1.2px;
+font-weight: 400;
+color: #f1cdb3;
+padding-left: 20px;
+}
+.phone {
+    display: flex;
+   
+}
+.phone_img {
+    width: 40px;
+    height: 32px;
+    
+}
+.phone_number {
+    width: 177px;
+    height: 19px;
+    padding: 7px 21px;
+}
+
+
+.footer_puppy {
+width: 300px;
+height: 310px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    
+}
+.loc_txt {
+    
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+    color: #f1cdb3; 
+    padding: 33px 5px 0px 20px;
+    
+}
+.loc_img {
+    width: 22px;
+    height: 32px;
+    padding-top: 30px;
+}
+.loc_txt2 {
+    
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+    color: #f1cdb3; 
+    margin-top: 33px;
+    margin-right: 13px;
+    
+    
+    
+}
+.loc_img2 {
+    width: 22px;
+    height: 32px;
+    padding-top: 32px;
+    padding-right: 20px;
+
+   
 }

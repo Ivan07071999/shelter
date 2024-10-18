@@ -731,6 +731,7 @@ margin: 16px 160px 60px 0px;
     width: 40px;
     height: 32px;
 }
+
 .email_adr {
 font-size: 20px;
 line-height: 23px;
@@ -741,19 +742,17 @@ padding-left: 20px;
 }
 .phone {
     display: flex;
-   
 }
 .phone_img {
     width: 40px;
-    height: 32px;
-    
+    height: 32px;  
 }
+
 .phone_number {
     width: 177px;
     height: 19px;
     padding: 7px 21px;
 }
-
 
 .footer_puppy {
 width: 300px;
@@ -762,18 +761,15 @@ height: 310px;
 
 .location {
     display: flex;
-    align-items: center;
-    
+    align-items: center;  
 }
 .loc_txt {
-    
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 1.2px;
     font-weight: 400;
     color: #f1cdb3; 
-    padding: 33px 5px 0px 20px;
-    
+    padding: 33px 5px 0px 20px;  
 }
 .loc_img {
     width: 22px;
@@ -781,7 +777,6 @@ height: 310px;
     padding-top: 30px;
 }
 .loc_txt2 {
-    
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 1.2px;
@@ -789,15 +784,11 @@ height: 310px;
     color: #f1cdb3; 
     margin-top: 33px;
     margin-right: 13px;
-    
-    
-    
+       
 }
 .loc_img2 {
     width: 22px;
     height: 32px;
     padding-top: 32px;
     padding-right: 20px;
-
-   
 }

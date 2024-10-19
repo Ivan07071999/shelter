@@ -21,7 +21,7 @@
     justify-content: center;
     
 }
-.logo{
+.logo {
     width: 187px;
 height: 60px;
 display: flex;
@@ -96,10 +96,21 @@ color: #292929
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
-    color: #292929;
+    color: #545454;
     cursor: pointer;
 }
 
+.lnk1 {
+    text-decoration: none;
+    color: #545454;
+}
+
+.lnk1:hover {
+    color: black;
+    font-weight: 500;
+
+    border-bottom: 2px solid #f1cdb3;
+}
 .pets_wrapper {
     width: 1280px;
     height: 1342px;
@@ -107,13 +118,12 @@ color: #292929
    align-items: center;
    
 
-    background-color: blueviolet;
+    background-color: #f6f6f6;
 }
 .container {
     
     width: 1200px;
     height: 1162px;
-    background-color: chartreuse;
     margin: 80px 40px 100px 40px;
     
 }
@@ -130,7 +140,7 @@ color: #292929
     font-size: 35px;
     line-height: 45.5px;
     letter-spacing: 2px;
-    background-color: bisque;
+    
     text-align: center;
     
     
@@ -141,18 +151,17 @@ color: #292929
     .cards_container {
     width: 1200px;
     height: 930px;
-    background-color: aquamarine;
-    margin: 45px 0px;
+    margin: 57px 0px 33px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+   
 
     
 }
 .navigation_pets {
     width: 340px;
     height: 52px;
-    background-color: tomato;
     margin: 0px 430px;
     display: flex;
     justify-content: space-between;
@@ -161,16 +170,19 @@ color: #292929
 .pets_card {
     width: 270px;
     height: 435px;
-    border: solid #292929;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    background-color: #fafafa;
+    border-radius: 9px;
+   
 }
 
 .pets_img {
     width: 270px;
     height: 270px;
+    align-self: flex-start;
 }
 
 .txt {
@@ -178,6 +190,10 @@ color: #292929
     font-size: 20px;
     line-height: 22.72px;
     letter-spacing: 2px;
+    margin-top: 33px;
+    margin-left: 3px;
+    
+    
 
 }
 
@@ -192,22 +208,33 @@ color: #292929
     line-height: 22.1px;
     letter-spacing: 1px;
     background-color: #fafafa;
+    margin-top: 32px;
 }
 
 .batt1 {
 width: 52px;
 height: 52px;
 border-radius: 100px ;
-border: 2px ;
-border-color: #cdcdcd;
+border: 2px solid #cdcdcd;
+color: #cdcdcd;
+background-color: #f6f6f6;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 2px;
 }
 
 .batt2 {
 width: 52px;
 height: 52px;
 border-radius: 100px ;
-border: 2px ;
-border-color: #cdcdcd;
+border: 2px solid #cdcdcd;
+color: #cdcdcd;
+background-color: #f6f6f6;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 2px;
 }
 
 .batt3 {
@@ -215,22 +242,41 @@ border-color: #cdcdcd;
 height: 52px;
 border-radius: 100px ;
 border: 2px ;
-border-color: #cdcdcd;   
+background-color: #f1cdb3;
+
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 2px; 
+font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .batt4 {
    width: 52px;
 height: 52px;
 border-radius: 100px ;
-border: 2px ;
-border-color: #cdcdcd; 
+border: 2px solid #f1cdb3;
+color: #cdcdcd;
+background-color: #f6f6f6;
+
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 2px; 
 }
 .batt5 {
  width: 52px;
 height: 52px;
 border-radius: 100px ;
-border: 2px ;
-border-color: #cdcdcd;   
+border: 2px solid #f1cdb3;
+color: #cdcdcd;
+background-color: #f6f6f6;
+ 
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 2px; 
 }
 
 

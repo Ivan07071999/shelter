@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     margin:0;
   
@@ -8,6 +12,7 @@
         font-family: Arial, Helvetica, sans-serif;
         font-family: Georgia, sans-serif;
         position: relative;
+       
     }
 }
 
@@ -37,6 +42,7 @@
     list-style: none;
     text-decoration: none;
 }
+
 .navigation_link {
     list-style: none;
     padding: 0 17px;
@@ -54,6 +60,7 @@
     color: #f6f6f6;
     border-bottom: 2px solid #f1cdb3;
 }
+
 
 .start_screen {
     position: relative;
@@ -114,10 +121,15 @@ p {
    position: absolute;
    top: 270px;
    letter-spacing: 0.5px;
-    
-
-
+   
 }
+    
+.button_prim {
+text-decoration: none;
+color: black;
+}
+
+
 .img_puppy {
     width: 698px;
     height: 728px;
@@ -130,6 +142,7 @@ p {
     width: 1280px;
     height: 588px;
     position: relative;
+    background-color: #ffffff;
 }
 
 .about_content {
@@ -366,6 +379,11 @@ align-items: center;
     background-color: #fafafa
 }
 
+.get_but {
+    text-decoration: none;
+    color: black;
+}
+
 .txt {
     font-size: 20px;
     font-weight: 400;
@@ -394,6 +412,7 @@ align-items: center;
     height: 611px;
     display: flex;
     align-items: center;
+    background-color: #ffffff;
 }
 .help_content{
     width: 1200px;

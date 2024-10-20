@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 *{
     margin:0;
     padding: 0;
@@ -19,6 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
     
 }
 .logo {
@@ -105,12 +109,15 @@ color: #292929
     color: #545454;
 }
 
+
+
 .lnk1:hover {
     color: black;
     font-weight: 500;
 
     border-bottom: 2px solid #f1cdb3;
 }
+
 .pets_wrapper {
     width: 1280px;
     height: 1342px;

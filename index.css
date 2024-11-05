@@ -828,3 +828,84 @@ height: 310px;
     padding-top: 32px;
     padding-right: 20px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .start_screen {
+        width: 768px;
+        height: 1165px;
+        background-image: url(images/start-screen-gradient-background.png);
+    }
+
+    .wrapper {
+        width: 708px;
+        height: 60px;
+    }
+
+    .logo {
+        margin-top: 4px;
+        margin-left: -10px;
+    }
+
+    .navigation_link {
+        padding: 0 18px;
+    }
+
+    .startscreen_content {
+        width: 639px;
+        height: 1015px;
+        padding-left: 70px;
+        
+        
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .content{
+      margin-top: -162px; 
+      margin-left: 44px; 
+    }
+
+    .button_primary {
+        margin-left: 125px; 
+    }
+    
+.img_puppy {
+    width: 569px;
+    height: 593px;
+    padding-left: 59px;
+    padding-top: 422px;
+}
+
+.img_puppyA {
+    width: 569px;
+    height: 593px;
+}
+
+.about {
+    width: 768px;
+    height: 1048px;  
+}
+
+.about_content {
+    width: 437px;
+    height: 868px;
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.about_pets {
+    width: 300px;
+    height: 408px;
+    padding-left: 74px;
+}
+
+.pets_content {
+    margin-top: -14px;
+margin-left: -466px;
+}
+
+
+
+}

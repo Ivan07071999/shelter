@@ -7,12 +7,13 @@ html {
   
 
     body {
-        width: 1280px;
+
+        overflow-x: hidden;
         
         font-family: Arial, Helvetica, sans-serif;
         font-family: Georgia, sans-serif;
         position: relative;
-       
+    
     }
 }
 
@@ -205,9 +206,11 @@ padding-left: 175px;
     width: 430px;
     height: 144px;
  }
-    
+  .pets_sec {
+    width: 1280px;
+  }  
 .pets_wrapper {
-    
+    width: 1280px;
     height: 796px;
     top: 1496px;
    
@@ -215,12 +218,13 @@ padding-left: 175px;
     opacity: 0px;
     background-color: #f6f6f6;
     padding-top: 80px;
-    padding-left: 40px;
+ 
     
 }
 .pets_content1 {
     width: 1200px;
     height: 697px;
+    margin-left: 0px;
 }
 
 .pets_heading {
@@ -407,8 +411,11 @@ align-items: center;
     line-height: 22.75px;
     padding: 30px 101px; 
 }
-
+.help_sec {
+    width: 1280px;
+}
 .wrapper_help{
+    width: 1280px;
     height: 611px;
     display: flex;
     align-items: center;
@@ -642,8 +649,11 @@ padding-top: 30px;
     letter-spacing: 1.14px;
 }
 
-
+.don_sec {
+    width: 1280px;
+}
 .wrapper_don{
+    width: 1280px;
     height: 462px;
     display: flex;
     justify-content: center;
@@ -725,12 +735,14 @@ color: #545454;
    letter-spacing: 0.01px;
    color:#B2B2B2;  
 }
-
+.footer_sec {
+    width: 1280px;
+}
 .wrapper_footer {
-   
+   width: 1280px;
     background-image: url(images/footer-background.png);
 padding-top: 40px;
-padding-left: 40px;
+padding-left: 0px;
 }
 .footer_content {
 width: 1200px;
@@ -738,6 +750,7 @@ font: 310px;
 
 display: flex;
 justify-content: space-between;
+margin-left: 40px;
 }
 .footer_contacts {
 width: 278px;
@@ -830,6 +843,7 @@ height: 310px;
 }
 
 @media screen and (max-width: 768px) {
+    
 
     .start_screen {
         width: 768px;
@@ -1009,7 +1023,7 @@ margin-left: 44px;
 
 .wrapper_don {
     width: 768px;
-    height: 779px;
+    height: 783px;
 }
 
 .don_content {
@@ -1031,6 +1045,7 @@ margin-left: 44px;
     width: 768px;
     height: 639px;
    padding: 0px;
+   background-image: url(images/footer-gradient-background.png);
 
 }
 
@@ -1038,8 +1053,34 @@ margin-left: 44px;
     width: 708px;
     display: grid;
     grid-template-columns: 278px 302px ;
-    grid-template-rows: repeat(2,274px);
+    grid-template-rows: repeat(2, 290px);
+    grid-row-gap: 35px ;
+    grid-column-gap: 10px;
+    margin-left: 30px;
 }
 
+.footer_contacts {
+margin: 31px 10px 10px 35px;
+}
+.footer_locations {
+margin: 31px 10px 10px -33px;
+}
 
+.footer_puppy {
+    margin-left: 205px;
+    margin-top: 4px;
+}
+
+.pets_sec {
+    width: 768px;
+}
+.help_sec {
+    width: 768px;
+}
+.don_sec {
+    width: 768px;
+}
+.footer_sec {
+     width: 768px;
+}
 }

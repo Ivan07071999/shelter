@@ -29,6 +29,10 @@ html {
     padding-top: 30px;
 }
 
+#menu__toggle {
+  opacity: 0;
+}
+
 .header_navigation {
     padding-top: 16px;
     padding-bottom: 20px;
@@ -1083,9 +1087,163 @@ margin: 31px 10px 10px -33px;
 .footer_sec {
      width: 768px;
 }
+#menu__toggle {
+  opacity: 0;
+}
 }
 
 @media screen and (max-width: 320px) {
 
+ .header_navigation {
+    width: 320px;
+    height: 823px;
+    margin-left: -209px;
+ }
+ 
+
+.menu__btn {
+  display: flex; 
+  align-items: center;  
+  position: fixed;
+  top: 50px;
+  left: 270px;
+  width: 30px;
+  height: 22px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #f1cdb3;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -10px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 10px;
+}
+
+.navigation {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  padding: 0;
+  width: 320px;
+  height: 823px;
+  margin: 0;
+
+  list-style: none;
+  text-align: center;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+
+.navigation_link {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.navigation_link:hover {
+  background-color: #CFD8DC;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+.start_screen {
+    width: 320px;
+    height: 823px;
+    background-image: url(images/start-screen-mobile.jpg);
+}
+.wrapper {
+    width: 280px;
+    height: 60px;
+    padding: 32px 20px;
+}
+.logo {
+    margin-top: 0px;
+    margin-left: 0px;
     
+}
+.startscreen_content {
+    width: 300px;
+    height: 673px;
+    padding: 0px;
+    left: 0;
+    
+}
+.content {
+    width: 300px;
+    height: 296px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: -163px;
+    margin-left: 10px;
+    
+}
+.headin {
+    width: 300px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32.5px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    
+
+}
+.subheading {
+width: 300px;
+height: 96px;
+font-size: 15px;
+line-height: 24px;
+text-align: center;
+color: #cdcdcd;
+font-weight: 400;
+
+
+}
+.button_primary {
+    margin-left: 46px;
+    margin-top: -27px;
+}
+.img_puppy {
+width: 260px;
+height: 271px;
+padding-top: 401px;
+padding-left: 50px;
+
+}
+
+.img_puppyA {
+    width: 260px;
+    height: 271px;
+}
 }

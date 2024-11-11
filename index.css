@@ -7,13 +7,11 @@ html {
   
 
     body {
-
         overflow-x: hidden;
-        
         font-family: Arial, Helvetica, sans-serif;
         font-family: Georgia, sans-serif;
         position: relative;
-    
+
     }
 }
 
@@ -242,9 +240,6 @@ font-size: 35px;
 line-height: 45.5px;
 font-weight: 400;
 margin-left: 400px;
-
-
-
 gap: 0px;
 opacity: 0px;
 
@@ -256,7 +251,6 @@ margin-top: 60px;
 gap: 0px;
 opacity: 0px;
 display: flex;
-
 align-items: center;
 }
 
@@ -277,8 +271,6 @@ align-items: center;
     height: 270px;
     width: 270px;
     border-radius: 9px;
-   
-
 }
 .pet_img2 {
     height: 270px;
@@ -309,7 +301,6 @@ align-items: center;
     margin-left: 90px;
     background-color: #fafafa;
     border-radius: 9px;
-    
 }
 .woody {
     width: 270px;
@@ -456,8 +447,6 @@ left: 87px;
     flex-wrap: wrap;
     align-content: space-between;
     margin-top: 60px;
-    
-
 }
 .help_cont1 {
 width: 82px;
@@ -465,7 +454,6 @@ height: 113px;
 display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-
 }
 .help_img1 {
     width: 60px;
@@ -480,11 +468,7 @@ line-height: 23px;
 letter-spacing: 1.1px;
 margin-bottom: 30px;
 padding-top: 30px;
- 
-
 }
-
-
 
 .help_cont2 {
     width: 150px;
@@ -505,9 +489,7 @@ padding-top: 30px;
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 1.2px;
-    padding-top: 30px;
-    
-    
+    padding-top: 30px; 
 }
 
 .help_cont3 {
@@ -669,9 +651,6 @@ width: 915px;
 height: 282px;
 margin-top: 80px;
 display: flex;
-
-
-
 }
 .donation_dog {
     width: 505px;
@@ -1321,6 +1300,7 @@ height: 791px;
 .pets_wrapper {
 width: 320px;
 height: 791px;
+padding: 0;
 }
 
 .pets_content1 {
@@ -1343,8 +1323,7 @@ height: 707px;
   line-height: 32px;
   letter-spacing: 1.5px;
   margin-left: 1px;
-  margin-top: -38px;
-  
+  margin-top: 42px;
 }
 
 .button_arrow {
@@ -1359,5 +1338,278 @@ margin: 4px -7px -10px 6px;
 
 .primary {
 margin: 38px 0px 0px 20px;
+}
+.help_sec {
+width: 320px;
+height: 745px;
+}
+
+.wrapper_help {
+width: 320px;
+height: 745px;
+
+}
+.help_content {
+width: 290px;
+height: 663px;
+margin-top: -3px;
+}
+.heading_help {
+width: 220px;
+height: 64px;
+font-size: 25px;
+line-height: 32.5px;
+letter-spacing: 1.4px;
+text-align: center;
+margin-top: 2px;
+}
+.list {
+width: 290px;
+height: 555px;
+display: flex;
+justify-content: space-between;
+margin-top: 42px;
+}
+
+.help_cont1, 
+    .help_cont2,
+    .help_cont3,
+    .help_cont4,
+    .help_cont5,
+    .help_cont6,
+    .help_cont7,
+    .help_cont8,
+    .help_cont9 {
+        width: 130px;
+        height: 87px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content:  center;
+    }
+
+.help_img1,
+.help_img2,
+.help_img3,
+.help_img4,
+.help_img5,
+.help_img6,
+.help_img7,
+.help_img8,
+.help_img9 {
+width: 50px;
+height: 50px;
+padding: 0;
+
+
+}
+.txt_help1,
+.txt_help2,
+.txt_help3,
+.txt_help4,
+.txt_help5,
+.txt_help6,
+.txt_help7,
+.txt_help8,
+.txt_help9 {
+font-size: 15px;
+line-height: 16.5px;
+
+padding: 0px;
+margin: 0;
+}
+
+.don_content {
+    margin-top: 0px;
+}
+
+.help_img1 {
+    margin-left: 5px;
+}
+
+.help_img2 {
+    margin-left: 32px;
+}
+
+.help_img4 {
+    margin-left: 35px;
+}
+.help_img5 {
+    margin-left: 14px;
+}
+
+.help_img6 {
+    margin-left: 9px;
+}
+
+.help_img7 {
+    margin-left: 14px;
+}
+
+.help_img8 {
+    margin-left: 39px;
+}
+.help_img9 {
+    margin-left: 30px;
+}
+
+.txt_help3 {
+    margin-left: 7px;
+}
+
+.don_sec {
+    width: 300px; 
+    height: 542px;
+
+}
+.wrapper_don {
+width: 320px; 
+height: 542px;
+}
+.don_content {
+width: 320px;
+height: 510px;
+}
+.donation_dog {
+width: 260px;
+height: 135.2px;
+margin: 0;
+padding: 84px 5px 5px 30px;
+}
+.donation_info {
+    width: 300px;
+    height: 281px;
+margin: 0;
+padding: 0;
+}
+.heading_donation {
+height: 64px;
+width: 300px;
+font-size: 25px;
+line-height: 32.5px;
+text-align: center;
+letter-spacing: 1.4px;
+margin: 42px 10px 10px 10px;
+
+}
+.subheading_donation {
+    width: 273px;
+    height: 24px;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0px;
+margin: 20px 0px 0px 23px;
+}
+.card {
+width: 281px;
+height: 43px;
+margin: 20px 2px 2px 20px;
+}
+.card_img {
+
+}
+.card_number {
+width: 206px;
+height: 17px;
+margin: 11px -6px;
+}
+.donation_text {
+width: 280px;
+height: 90px;
+font-size: 12px;
+line-height: 18px;
+text-align: justify;
+padding: 0;
+margin: 20px;
+}
+
+.footer_sec {
+    width: 320px;
+height: 809px;
+}
+
+.wrapper_footer {
+    width: 320px;
+height: 809px;
+background-image: url(images/Footer-mobile.png);
+}
+
+.footer_content {
+    width: 300px;
+height: 470px;
+display: flex;
+flex-direction: column;
+margin: 0;
+}
+
+.footer_contacts {
+margin: 30px 17px 10px 22px;
+}
+
+.footer_txt {
+letter-spacing: 1.5px;
+}
+
+.email {
+padding: 39px 27px 40px 11px;
+}
+
+.phone {
+padding-left: 18px;
+
+}
+
+.footer_locations {
+    width: 300px;
+    height: 222px;
+margin: -5px 0px 0px 9px;
+}
+
+.footer_txt {
+    width: 278px;
+    height: 64px;
+font-size: 25px;
+line-height: 32.5px;
+text-align: center;
+letter-spacing: 1.5px;
+}
+
+.location {
+    padding: 0;
+
+}
+
+.loc_img {
+    width: 21.85px;
+    height: 32px;
+    padding: 39px 0px 0px 0px;
+}
+
+.loc_txt {
+font-size: 20px;
+line-height: 23px;
+padding: 40px 5px 0px 20px;
+}
+
+.loc_img2 {
+width: 21.85px;
+height: 32px;
+padding: 39px 20px 0px 0px;
+}
+
+.loc_txt2 {
+
+margin: 41px 13px 0px 0px;
+}
+
+.footer_puppy {
+    width: 260px; 
+    height: 269px;
+    margin: 6px 0px 0px 30px;
+}
+.f_txt {
+    margin-left: 12px;
+    letter-spacing: 1.5p;
 }
 }

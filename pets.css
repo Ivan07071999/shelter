@@ -54,19 +54,15 @@ padding: 0px 0px 0px 0px;
 
 
 }
-.logo_txt2 {
-    
-    
+.logo_txt2 {   
 font-family: Arial, Helvetica, sans-serif;
 display: flex;
 align-items: flex-end;
 font-weight: 400;
 font-size: 13px;
-
 line-height: 14.95px;
 letter-spacing: 1.3px;
 padding: 0px 1px 0px 4px;
-
 color: #292929
 
 }
@@ -76,21 +72,16 @@ color: #292929
     height: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  
- 
-   
+  justify-content: space-between;  
 }
+
 .navigation {
     width: 443px;
     height: 27px;
-   
     display: flex;
-    justify-content: space-between;
-    
-    
-
+    justify-content: space-between; 
 }
+
 .navigation_link {
     list-style: none;
     font-size: 15px;
@@ -104,8 +95,6 @@ color: #292929
     text-decoration: none;
     color: #545454;
 }
-
-
 
 .lnk1:hover {
     color: black;
@@ -143,12 +132,7 @@ color: #292929
     font-size: 35px;
     line-height: 45.5px;
     letter-spacing: 2px;
-    
     text-align: center;
-    
-    
-    
-
 }
     
     .cards_container {
@@ -173,7 +157,6 @@ color: #292929
 .pets_card {
     width: 270px;
     height: 435px;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -181,7 +164,9 @@ color: #292929
     border-radius: 9px;
    
 }
-
+.pets_card:hover {
+    box-shadow:  0px 0px 10px #545454;
+}
 .pets_img {
     width: 270px;
     height: 270px;
@@ -195,9 +180,6 @@ color: #292929
     letter-spacing: 2px;
     margin-top: 33px;
     margin-left: 3px;
-    
-    
-
 }
 
 .butt_pets {
@@ -213,6 +195,11 @@ color: #292929
     background-color: #fafafa;
     margin-top: 32px;
 }
+.butt_pets:hover {
+    background-color: #f1cdb3;
+    box-shadow:  5px 5px 5px #545454;
+    
+}
 
 .batt1 {
 width: 52px;
@@ -225,6 +212,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 23px;
 letter-spacing: 2px;
+cursor: pointer;
 }
 
 .batt2 {
@@ -238,6 +226,7 @@ font-weight: 400;
 font-size: 20px;
 line-height: 23px;
 letter-spacing: 2px;
+cursor: pointer;
 }
 
 .batt3 {
@@ -246,7 +235,7 @@ height: 52px;
 border-radius: 100px ;
 border: 2px ;
 background-color: #f1cdb3;
-
+border: 2px solid #cdcdcd;
 font-weight: 400;
 font-size: 20px;
 line-height: 23px;
@@ -259,7 +248,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
    width: 52px;
 height: 52px;
 border-radius: 100px ;
-border: 2px solid #f1cdb3;
+border: 2px solid #cdcdcd;
 color: #cdcdcd;
 background-color: #f6f6f6;
 
@@ -267,12 +256,13 @@ font-weight: 400;
 font-size: 20px;
 line-height: 23px;
 letter-spacing: 2px; 
+cursor: pointer;
 }
 .batt5 {
  width: 52px;
 height: 52px;
 border-radius: 100px ;
-border: 2px solid #f1cdb3;
+border: 2px solid #cdcdcd;
 color: #cdcdcd;
 background-color: #f6f6f6;
  
@@ -280,20 +270,408 @@ font-weight: 400;
 font-size: 20px;
 line-height: 23px;
 letter-spacing: 2px; 
+cursor: pointer;
+}
+
+.batt1:hover{background-color: #f1cdb3; color: #292929;}
+.batt2:hover{background-color: #f1cdb3; color: #292929;}
+.batt4:hover{background-color: #f1cdb3; color: #292929;}
+.batt5:hover {
+    background-color: #f1cdb3;
+    color: #292929;
+}
+
+.button_katrine {
+cursor: pointer;
+}
+.popUpKatrine {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 1812px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.3);
+}
+
+.hiddenKatrine {
+visibility: hidden;
+}
+.katrinePopCont {
+display: flex;
+    width: 73%;
+    height: 30%;
+    border-radius: 10px;
+    background: #fafafa;
+}
+.imgPopKatt {
+border-radius: 10px;
+}
+
+.closeKatrineButt {
+ width: 57px;
+    height: 57px;
+    padding-top: 2px;
+    margin-top: 10px;
+    position: absolute;
+    right: 195px;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+    color: #292929;
+    cursor: pointer;
 }
 
 
 
+.button_jennifer {
+cursor: pointer;
+}
+.popUpJennifer {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 1812px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.3);
+}
+
+.hiddenJennifer {
+visibility: hidden;
+}
+.jenPopCont {
+display: flex;
+    width: 73%;
+    height: 30%;
+    border-radius: 10px;
+    background: #fafafa;
+}
+.imgPopJenn {
+border-radius: 10px;
+}
+
+.closeJenniferButt {
+ width: 57px;
+    height: 57px;
+    padding-top: 2px;
+    margin-top: 10px;
+    position: absolute;
+    right: 195px;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+    color: #292929;
+    cursor: pointer;
+}
+
+.button_woody {
+cursor: pointer;
+}
+.popUpWoody {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 1812px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.3);
+}
+
+.hiddenWoody {
+visibility: hidden;
+}
+.woodyPopCont {
+display: flex;
+    width: 73%;
+    height: 30%;
+    border-radius: 10px;
+    background: #fafafa;
+}
+.imgPopWoody {
+border-radius: 10px;
+}
+
+.closeWoodyButt {
+ width: 57px;
+    height: 57px;
+    padding-top: 2px;
+    margin-top: 10px;
+    position: absolute;
+    right: 195px;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+    color: #292929;
+    cursor: pointer;
+}
+
+.button_sophia {
+cursor: pointer;
+}
+.popUpSophia {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 1812px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.3);
+}
+
+.hiddenSophia {
+visibility: hidden;
+}
+.sophiaPopCont {
+display: flex;
+    width: 73%;
+    height: 30%;
+    border-radius: 10px;
+    background: #fafafa;
+}
+.imgPopSophia {
+   
+border-radius: 6px;
+}
+
+.closeSophiaButt {
+ width: 57px;
+    height: 57px;
+    padding-top: 2px;
+    margin-top: 10px;
+    position: absolute;
+    right: 195px;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+    color: #292929;
+    cursor: pointer;
+}
+
+.button_timmy {
+cursor: pointer;
+}
+.popUpTimmy {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 1812px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.3);
+}
+
+.hiddenTimmy {
+visibility: hidden;
+}
+.timmyPopCont {
+display: flex;
+    width: 73%;
+    height: 30%;
+    border-radius: 10px;
+    background: #fafafa;
+}
+.imgPopTimmy {
+   width: 500px;
+border-radius: 6px;
+}
+
+.closeTimmyButt {
+ width: 57px;
+    height: 57px;
+    padding-top: 2px;
+    margin-top: 10px;
+    position: absolute;
+    right: 195px;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+    color: #292929;
+    cursor: pointer;
+}
+
+.button_charly {
+cursor: pointer;
+}
+.popUpCharly {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 1812px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.3);
+}
+
+.hiddenCharly {
+visibility: hidden;
+}
+.charlyPopCont {
+display: flex;
+    width: 73%;
+    height: 30%;
+    border-radius: 10px;
+    background: #fafafa;
+}
+.imgPopCharly {
+   
+border-radius: 6px;
+}
+
+.closeCharlyButt {
+ width: 57px;
+    height: 57px;
+    padding-top: 2px;
+    margin-top: 10px;
+    position: absolute;
+    right: 195px;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+    color: #292929;
+    cursor: pointer;
+}
+
+.button_scarlett {
+cursor: pointer;
+}
+.popUpScarlett {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 1812px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.3);
+}
+
+.hiddenScarlett {
+visibility: hidden;
+}
+.scarlettPopCont {
+display: flex;
+    width: 73%;
+    height: 30%;
+    border-radius: 10px;
+    background: #fafafa;
+}
+.imgPopScarlett {
+   width: 500px;
+border-radius: 6px;
+}
+
+.closeScarlettButt {
+ width: 57px;
+    height: 57px;
+    padding-top: 2px;
+    margin-top: 10px;
+    position: absolute;
+    right: 195px;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+    color: #292929;
+    cursor: pointer;
+}
+
+.button_freddie {
+cursor: pointer;
+}
+.popUpFreddie {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 1812px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.3);
+}
+
+.hiddenFreddie {
+visibility: hidden;
+}
+.freddiePopCont {
+display: flex;
+    width: 73%;
+    height: 30%;
+    border-radius: 10px;
+    background: #fafafa;
+}
+.imgPopFreddie {
+   width: 500px;
+border-radius: 6px;
+}
+
+.closeFreddieButt {
+ width: 57px;
+    height: 57px;
+    padding-top: 2px;
+    margin-top: 10px;
+    position: absolute;
+    right: 195px;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+    color: #292929;
+    cursor: pointer;
+}
+
+.popPets {
+padding: 50px 0px 0px 30px;
+}
+.poph3 {
+font-size: 35px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 400;
+}
+.poph4 {
+   font-size: 20px;
+line-height: 23px;
+font-weight: 400;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding-top: 10px; 
+}
+.poph5 {
+     width: 350px;
+font-size: 15px;
+font-weight: 400;
+line-height: 16px;
+padding-top: 40px;
+}
+
+.popul {
+padding-top: 40px;
+}
+.popli {
+  font-size: 15px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+li::marker {
+    color: #f1cdb3;
+}
 
 
 /* footer */
 .wrapper_footer {
+   width: 1280px;
    
     background-image: url(images/footer-background.png);
 padding-top: 40px;
-padding-left: 40px;
+
 }
 .footer_content {
+    margin-left: 40px;
 width: 1200px;
 font: 310px;
 
@@ -409,12 +787,13 @@ height: 310px;
     width: 708px;
     height: 1603px;
     margin: 80px 15px 50px 40px;
+    display: contents;
 }
 
 .cards_container div:nth-child(7) {
     display: none;
 } 
-.cards_container div:last-child {
+.cards_container div:nth-child(8) {
     display: none;
 
 }
@@ -427,11 +806,11 @@ height: 310px;
     grid-template-rows: 435px 435px;
     grid-column-gap: 40px;
     grid-row-gap: 30px;
-    margin: 30px 52px 40px 52px
+    margin: 30px 52px 40px 95px
     
 }
 .pets_heading {
-    margin: 0px 165px 30px 145px;
+    margin: 0px 0px 30px 190px;
 }
 
 .butt_pets {
@@ -441,16 +820,148 @@ height: 310px;
     margin: 30px 2px 0px 2px;
     letter-spacing: 1.2px;
 }
+.imgAllPets {
+    width: 350px;
+    height: 350px;
+}
+.popUpKatrine {
+width: 768px;
+height: 2492px;
+
+}
+
+.katrinePopCont {
+width: 682px;
+height: 482px;
+}
+.closeKatrineButt {
+    right: 56px;
+}
+
+.popUpJennifer {
+    width: 768px;
+    height: 2492px;
+    
+    }
+    
+    .jenPopCont {
+    width: 682px;
+    height: 482px;
+    }
+    .closeJenniferButt {
+        right: 56px;
+    }
+    
+    .popUpWoody {
+        width: 768px;
+        height: 2492px;
+        
+        }
+        
+        .woodyPopCont {
+        width: 682px;
+        height: 482px;
+        }
+        .closeWoodyButt {
+            right: 56px;
+        }
+  
+.popUpSophia {
+  width: 768px;
+  height: 2492px;
+    
+ }
+    
+    .sophiaPopCont {
+    width: 682px;
+    height: 482px;
+   
+    }
+    .closeSophiaButt {
+        right: 56px;
+    }
+.popUpTimmy {
+    width: 768px;
+    height: 2492px;
+    
+    }
+    
+    .timmyPopCont {
+    width: 682px;
+    height: 482px;
+    }
+    .closeTimmyButt {
+        right: 56px;
+    }
+  .popUpCharly {
+    width: 768px;
+    height: 2492px;
+    
+    }
+    
+    .charlyPopCont {
+    width: 682px;
+    height: 482px;
+    }
+    .closeCharlyButt {
+        right: 56px;
+    }
+                  
+.popUpScarlett {
+    width: 768px;
+    height: 2492px;
+    
+    }
+    
+    .scarlettPopCont {
+    width: 682px;
+    height: 482px;
+    }
+    .closeScarlettButt {
+        right: 56px;
+    }
+    
+.popUpFreddie {
+    width: 768px;
+    height: 2492px;
+    
+    }
+    
+    .freddiePopCont {
+    width: 682px;
+    height: 482px;
+    }
+    .closeFreddieButt {
+        right: 56px;
+    }
+    
+
+
+.popPets {
+width: 310px;
+}
+.poph3 {
+font-size: 35px;
+line-height: 45px;
+
+}
+.poph4 {
+   font-size: 20px;
+line-height: 23px;
+
+}
+.poph5 {
+     width: 280px;
+font-size: 13px;
+
+line-height: 14px;
+letter-spacing: 0.4px;
+}
 
 .navigation_pets {
-    margin: 0px 175px;
+    margin: 0px 0px 0px 216px;
 }
-.batt4 {
-    color: #292929;
-}
-.batt5 {
-    color: #292929;
-}
+
 .wrapper_footer {
     width: 768px;
     height: 639px;
@@ -676,10 +1187,10 @@ height: 64px;
     flex-direction: column;
     margin:42px 0px 0px 25px;
  }
+.cardSophia {
+    display: none ;
+}
 
- .cards_container div:nth-child( 4) {
-    display: none;
-} 
  .cards_container div:nth-child( 5) {
     display: none;
 } 
@@ -687,6 +1198,52 @@ height: 64px;
     display: none;
 } 
 
+.popPets {
+    width: 310px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.poph3 {
+font-size: 35px;
+line-height: 45px;
+text-align: center;
+}
+.poph4 {
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+}
+
+.poph5 {
+    width: 250px;
+font-size: 13px;
+line-height: 14px;
+letter-spacing: 0.4px;
+text-align: justify;
+padding-left: 3px;
+padding-top: 30px;
+}
+.imgAllPets {
+    display: none;
+}
+.closeButton {
+    right: 35px;
+}
+.popUp {
+width: 320px;
+height: 2578px;
+
+
+}
+.popul{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.popCont {
+width: 271px;
+height: 395px;
+
+}
 .navigation_pets {
     width: 300px;
     height: 52px;

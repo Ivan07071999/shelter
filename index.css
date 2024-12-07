@@ -124,8 +124,13 @@ p {
    position: absolute;
    top: 270px;
    letter-spacing: 0.5px;
-   
+   cursor: pointer;
 }
+
+.button_primary:hover {
+    box-shadow:  0px 0px 10px #545454;
+}
+
     
 .button_prim {
 text-decoration: none;
@@ -168,7 +173,6 @@ padding-left: 175px;
 .pets_content {
     width: 430px;
     height: 380px;
-    
     position: absolute;
     left: 595px;
     top: 14px;
@@ -267,7 +271,12 @@ padding-left: 40px;
     border: #f1cdb3;
     margin: 60px 0px 60px 510px ;
     letter-spacing: 1px;
+    cursor: pointer;
 }
+.primary:hover {
+    box-shadow:  0px 0px 10px #545454;
+}
+
 .pet_img {
     height: 270px;
     width: 270px;
@@ -289,29 +298,189 @@ padding-left: 40px;
     height: 435px;
     display: flex;
     flex-direction: column;
-    margin-left: 53px;
+    margin-left: 78px;
     background-color: #fafafa;
     border-radius: 9px;
     
 }
+.popUpWoody {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.3); 
+}
+
+.woodyPopCont {
+    display: flex;
+    width: 71%;
+    height: 14%;
+    border-radius: 10px;
+    
+    background: #fafafa;
+}
+.imgPopWoody {
+    border-radius: 10px;
+}
+.closeWoodyButt {
+    width: 57px;
+    height: 57px;
+    padding-top: 2px;
+    margin-top: 10px;
+    position: absolute;
+    right: 195px;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+    color: #292929;
+    cursor: pointer; 
+}
+.hiddenWoody {
+    visibility: hidden;
+}
+.popUpKatrine {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.3); 
+}
+.katrinePopCont {
+    display: flex;
+    width: 71%;
+    height: 14%;
+    border-radius: 10px;
+    
+    background: #fafafa;
+}
+.popUpJennifer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1280px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.3); 
+}
+.popJen {
+    padding: 50px 0px 0px 0px;
+}
+.imgPopKatt {
+    border-radius: 10px;
+}
+.hiddenKatrine {
+    visibility: hidden;
+}
+.closeKatrineButt {
+     width: 57px;
+    height: 57px;
+    padding-top: 2px;
+    margin-top: 10px;
+    position: absolute;
+    right: 195px;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+    color: #292929;
+    cursor: pointer;  
+}
+
+.close {
+    width: 57px;
+    height: 57px;
+    padding-top: 2px;
+    margin-top: 10px;
+    position: absolute;
+    right: 195px;
+    border: 2px solid #f1cdb3;
+    border-radius: 100px;
+    color: #292929;
+    cursor: pointer;  
+}
+.hidden {
+    visibility: hidden;
+}
+
+.jenPopCont {
+    display: flex;
+    width: 71%;
+    height: 14%;
+    border-radius: 10px;
+    background: #fafafa;
+    
+}
+.poph3 {
+font-size: 35px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 400;
+}
+.poph4 {
+font-size: 20px;
+line-height: 23px;
+font-weight: 400;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding-top: 10px;
+
+
+}
+.poph5 {
+    width: 350px;
+font-size: 15px;
+font-weight: 400;
+line-height: 16px;
+padding-top: 40px;
+
+}
+.popul {
+    padding-top: 40px;
+}
+.popli {
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+li::marker {
+    color: #f1cdb3;
+}
+
 .jennifer {
     width: 270px;
     height: 435px;
   display: flex;
     flex-direction: column;  
-    margin-left: 90px;
+    margin-left: 78px;
     background-color: #fafafa;
     border-radius: 9px;
+}
+
+.jennifer:hover {
+    box-shadow:  0px 0px 10px #545454;
 }
 .woody {
     width: 270px;
     height: 435px;
     display: flex;
     flex-direction: column;
-    margin-left: 90px;
+    margin-left: 78px;
     background-color: #fafafa;
-    border-radius: 9px;
-    
+    border-radius: 9px;  
+}
+.woody:hover {
+    box-shadow:  0px 0px 10px #545454;
+}
+
+.katrine:hover {
+    box-shadow:  0px 0px 10px #545454;
 }
 .butt_pets {
     width: 187px;
@@ -326,6 +495,7 @@ padding-left: 40px;
     letter-spacing: 1px;
     padding-top: 1px;
     background-color: #fafafa;
+    cursor: pointer;
  
 }
 .butt_pets2 {
@@ -341,7 +511,7 @@ padding-left: 40px;
     letter-spacing: 1px;
     padding-top: 1px;
     background-color: #fafafa;
-   
+   cursor: pointer;
 
 }
 .butt_pets3 {
@@ -357,11 +527,25 @@ padding-left: 40px;
     letter-spacing: 1px;
     padding-top: 1px;
     background-color: #fafafa;
-    
+    cursor: pointer;   
+}
+
+.butt_pets:hover {
+    background-color: #f1cdb3;
+    box-shadow:  5px 5px 5px #545454;
+}
+.butt_pets2:hover {
+    background-color: #f1cdb3;
+    box-shadow:  5px 5px 5px #545454;
+}
+.butt_pets3:hover {
+    background-color: #f1cdb3;
+    box-shadow:  5px 5px 5px #545454;
 }
 .button_arrow {
     width: 52px;
     height: 52px;
+    cursor: pointer;
     border-radius: 100px;
     border: 2px solid #f1cdb3;
     font-size: 15px;
@@ -371,14 +555,26 @@ padding-left: 40px;
 .button_arrow2 {
     width: 52px;
     height: 52px;
+    cursor: pointer;
     border-radius: 100px;
     border: 2px solid #f1cdb3;
     margin-left: 53px;
     font-size: 15px;
     font-weight: 600;
-    background-color: #fafafa
+    background-color: #fafafa 
 }
 
+.button_arrow:hover {
+    box-shadow:  0px 0px 10px #545454;
+}
+
+.button_arrow2:hover {
+    box-shadow:  0px 0px 10px #545454;
+}
+
+.cardSlider {
+    display: flex;
+}
 .get_but {
     text-decoration: none;
     color: black;
@@ -683,30 +879,23 @@ color: #545454;
     line-height: 16.5px;
     letter-spacing: 0.87px;
     color: #545454;
-    
- 
 }
 .card {
     width:349px;
     height:43px;
     margin: 17px 0px;
     border-radius: 9px;
-    background-color: #f1cdb3;
-    
+    background-color: #f1cdb3;  
 }
 .card_img {
-  margin:  10px 15px;  
-    
+  margin:  10px 15px;    
 }
 .card_number {
     width: 273px;
     height: 18px;
-    margin: 11px -3px ;
-   
-   
-  
-    
+    margin: 11px -3px ;   
 }
+
 .donation_text {
     width: 380px;
     height: 72px;
@@ -759,6 +948,10 @@ margin: 16px 160px 60px 0px;
     display: flex;
     align-items: center;
    padding: 40px 27px 40px 0px;
+   
+}
+.email_adr:hover {
+    text-shadow:  0px 0px 10px black;
 }
 .email_img {
     width: 40px;
@@ -772,6 +965,8 @@ letter-spacing: 1.2px;
 font-weight: 400;
 color: #f1cdb3;
 padding-left: 20px;
+cursor: pointer;
+text-decoration: none;
 }
 .phone {
     display: flex;
@@ -828,7 +1023,6 @@ height: 310px;
 
 @media screen and (max-width: 768px) {
     
-
     .start_screen {
         width: 768px;
         height: 1165px;
@@ -929,13 +1123,58 @@ padding: 0px;
     padding: 0px;
 }
 .katrine {
-    margin-left: 13px;
+    margin-left: 22px;
+}
+.popUpKatrine {
+    width: 768px;
+}
+.katrinePopCont {
+    width: 682px;
+    height: 482px;
+}
+.imgPopKatt {
+    width: 350px;
+    height: 350px;
 }
 
+.closeKatrineButt {
+    right: 56px;
+}
+.popJen {
+    width: 310px;
+}
+.poph3 {
+font-size: 35px;
+line-height: 45px;
+}
+.poph4 {
+font-size: 20px;
+line-height: 23px;
+}
+
+.poph5 {
+    width: 280px;
+font-size: 13px;
+line-height: 14px;
+letter-spacing: 0.4px;
+}
 .jennifer {
-   margin-left: 42px; 
+   margin-left: 22px; 
 }
-
+.popUpJennifer {
+    width: 768px;
+}
+.jenPopCont {
+   width: 682px;
+    height: 482px; 
+}
+.imgPopJenn {
+    width: 350px;
+    height: 350px;
+}
+.close {
+    right: 56px;
+}
 .primary {
     margin-left: 223px;
 }
@@ -943,11 +1182,32 @@ padding: 0px;
 .pets_heading {
     margin-left: 155px;
 }
+.cardSlider {
+    
+    width: 90%;
+    overflow: hidden;
+    
 
+}
 .woody {
-    display: none;
+    
+    margin-left: 22px;
 }
 
+.popUpWoody {
+    width: 768px;
+}
+.woodyPopCont {
+   width: 682px;
+    height: 482px; 
+}
+.imgPopWoody {
+    width: 350px;
+    height: 350px;
+}
+.closeWoodyButt {
+    right: 56px;
+}
 
 .wrapper_help {
     width: 768px;
@@ -1294,7 +1554,6 @@ margin: 28px 0px 0px -13px;
     height: 144px;
 font-size: 15px;
 line-height: 24px;
-
 text-align: justify;
 }
 
@@ -1306,17 +1565,106 @@ line-height: 24px;
 text-align: justify;
 margin-top: -2px;
 }
+.woody {
+    margin-left: 13px;
+    
+}
 
-.jennifer {
+.popUpWoody {
+    width: 320px;
+}
+.woodyPopCont {
+    width: 271px;
+    height: 393px;
+    
+}
+.imgPopWoody {
     display: none;
 }
 
+.closeWoodyButt {
+    width: 42px;
+    height: 42px;
+    right: 37px;
+}
+.jennifer {
+    
+    margin-left: 13px;
+}
+
+.popUpJennifer {
+    width: 320px;
+}
+
+.jenPopCont {
+width: 271px;
+    height: 393px;
+}
+
+.imgPopJenn {
+    display: none ;
+}
+
+.close {
+  width: 42px;
+    height: 42px;
+    right: 37px;  
+}
+
+.slider {
+    
+}
+.cardSlider {
+    width: 100%;
+    margin-left: 10px;
+}
 .katrine {
     width: 270px;
     height: 435px;
-    order: 1;
+    margin-left: 13px;
+    
+}
+.popUpKatrine {
+    width: 320px;
+}
+.katrinePopCont {
+    width: 271px;
+    height: 393px;
+    
+}
+.imgPopKatt {
+    display: none;
 }
 
+.closeKatrineButt {
+    width: 42px;
+    height: 42px;
+    right: 37px;
+}
+.popJen {
+    width: 310px;
+    padding-top: 10px;
+    
+}
+.poph3 {
+font-size: 35px;
+line-height: 45px;
+text-align: center;
+}
+.poph4 {
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+}
+
+.poph5 {
+    width: 250px;
+font-size: 13px;
+line-height: 14px;
+letter-spacing: 0.4px;
+text-align: justify;
+padding-left: 10px;
+}
 .pets_sec {
 width: 320px;
 height: 791px;

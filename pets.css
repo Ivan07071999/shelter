@@ -2,8 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 *{
-    margin:0;
-    padding: 0;
+    margin: auto;
+    
   
 
     body {
@@ -29,8 +29,9 @@ html {
 }
 .logo {
     width: 187px;
-height: 60px;
-display: flex;
+    height: 60px;
+    display: flex;
+    margin-left: 0;
 
 }
 .ref_logo {
@@ -44,7 +45,6 @@ justify-content: space-between;
 
 .logo_txt1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 font-weight: 400;
 font-size: 32px;
 line-height: 35.2px;
@@ -67,12 +67,17 @@ color: #292929
 
 }
 
+.hamburger-menu {
+    margin-right: 0;
+}
+
 .header_navigation {
     width: 1200px;
     height: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-between;  
+  justify-content: space-between; 
+
 }
 
 .navigation {
@@ -108,7 +113,7 @@ color: #292929
     height: 1342px;
     display: grid;
    align-items: center;
-   
+   overflow: hidden;
 
     background-color: #f6f6f6;
 }
@@ -180,6 +185,8 @@ color: #292929
     letter-spacing: 2px;
     margin-top: 33px;
     margin-left: 3px;
+    margin: auto;
+    
 }
 
 .butt_pets {
@@ -245,19 +252,19 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .batt4 {
-   width: 52px;
+width: 52px;
 height: 52px;
 border-radius: 100px ;
 border: 2px solid #cdcdcd;
 color: #cdcdcd;
 background-color: #f6f6f6;
-
 font-weight: 400;
 font-size: 20px;
 line-height: 23px;
 letter-spacing: 2px; 
 cursor: pointer;
 }
+
 .batt5 {
  width: 52px;
 height: 52px;
@@ -285,7 +292,7 @@ cursor: pointer;
 cursor: pointer;
 }
 .popUpKatrine {
-display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 1280px;
@@ -297,17 +304,17 @@ display: flex;
 }
 
 .hiddenKatrine {
-visibility: hidden;
+    visibility: hidden;
 }
 .katrinePopCont {
-display: flex;
+    display: flex;
     width: 73%;
     height: 30%;
     border-radius: 10px;
     background: #fafafa;
 }
 .imgPopKatt {
-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .closeKatrineButt {
@@ -397,7 +404,7 @@ border-radius: 10px;
 }
 
 .closeWoodyButt {
- width: 57px;
+    width: 57px;
     height: 57px;
     padding-top: 2px;
     margin-top: 10px;
@@ -557,7 +564,7 @@ display: flex;
 visibility: hidden;
 }
 .scarlettPopCont {
-display: flex;
+    display: flex;
     width: 73%;
     height: 30%;
     border-radius: 10px;
@@ -565,7 +572,7 @@ display: flex;
 }
 .imgPopScarlett {
    width: 500px;
-border-radius: 6px;
+   border-radius: 6px;
 }
 
 .closeScarlettButt {
@@ -582,10 +589,10 @@ border-radius: 6px;
 }
 
 .button_freddie {
-cursor: pointer;
+    cursor: pointer;
 }
 .popUpFreddie {
-display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 1280px;
@@ -597,10 +604,10 @@ display: flex;
 }
 
 .hiddenFreddie {
-visibility: hidden;
+    visibility: hidden;
 }
 .freddiePopCont {
-display: flex;
+    display: flex;
     width: 73%;
     height: 30%;
     border-radius: 10px;
@@ -612,7 +619,7 @@ border-radius: 6px;
 }
 
 .closeFreddieButt {
- width: 57px;
+    width: 57px;
     height: 57px;
     padding-top: 2px;
     margin-top: 10px;
@@ -625,7 +632,7 @@ border-radius: 6px;
 }
 
 .popPets {
-padding: 50px 0px 0px 30px;
+    padding: 50px 0px 0px 30px;
 }
 .poph3 {
 font-size: 35px;
@@ -767,6 +774,16 @@ height: 310px;
     padding-top: 32px;
     padding-right: 20px;
 }
+.popUp {
+   
+   left: 0;
+   right: 0;
+}
+.popCont {
+
+    margin-top: 500px; 
+
+}
 
 @media screen and (max-width: 768px) {
 
@@ -810,7 +827,10 @@ height: 310px;
     
 }
 .pets_heading {
-    margin: 0px 0px 30px 190px;
+    margin: 0px 0px 30px 20px;
+}
+.pets_headingh {
+    margin-left: 154px;
 }
 
 .butt_pets {
@@ -962,6 +982,10 @@ letter-spacing: 0.4px;
     margin: 0px 0px 0px 216px;
 }
 
+.popCont {
+    margin-top: 770px;
+}
+
 .wrapper_footer {
     width: 768px;
     height: 639px;
@@ -1095,7 +1119,6 @@ footer {
   top: 231px;
   padding: 34px 24px;
   color: #333;
-  
   font-size: 32px;
   font-weight: 400;
   text-decoration: none;
@@ -1170,15 +1193,16 @@ margin: 0;
 .pets_heading {
     width: 300px;
     height: 64px;
-    margin: 0px 0px 0px 11px;
+    margin: 0px 0px 10px;
 }
  .pets_headingh {
     font-size: 25px;
     line-height: 32.5px;
     text-align: center;
     letter-spacing: 1.5px;
-width: 300px;
-height: 64px;
+    width: 300px;
+    height: 64px;
+    margin-left: 10px;
  }
 
  .cards_container {
@@ -1235,7 +1259,7 @@ height: 2578px;
 
 
 }
-.popul{
+.popul {
     padding-left: 30px;
     padding-top: 20px;
 }
@@ -1281,10 +1305,12 @@ letter-spacing: 1.5px;
 
 .email {
 padding: 39px 27px 40px 11px;
+visibility: hidden;
 }
 
 .phone {
 padding-left: 18px;
+visibility: hidden;
 
 }
 
@@ -1301,6 +1327,7 @@ font-size: 25px;
 line-height: 32.5px;
 text-align: center;
 letter-spacing: 1.5px;
+visibility: hidden;
 }
 
 .location {
@@ -1312,23 +1339,27 @@ letter-spacing: 1.5px;
     width: 21.85px;
     height: 32px;
     padding: 39px 0px 0px 0px;
+    visibility: hidden;
 }
 
 .loc_txt {
 font-size: 20px;
 line-height: 23px;
 padding: 40px 5px 0px 20px;
+visibility: hidden;
 }
 
 .loc_img2 {
 width: 21.85px;
 height: 32px;
 padding: 39px 20px 0px 0px;
+visibility: hidden;
 }
 
 .loc_txt2 {
 
 margin: 41px 13px 0px 0px;
+visibility: hidden;
 }
 
 .footer_puppy {
@@ -1339,5 +1370,6 @@ margin: 41px 13px 0px 0px;
 .f_txt {
     margin-left: 12px;
     letter-spacing: 1.5p;
+    
 }
 }

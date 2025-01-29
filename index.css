@@ -1041,6 +1041,11 @@ li::marker {
 .popUp {
 left: 0;
 right: 0;
+
+}
+
+.popCont {
+    overflow: hidden;
 }
 
 .primary {
@@ -1449,6 +1454,7 @@ letter-spacing: 0.4px;
 #menu__toggle:checked ~ .header_navigation {
   visibility: visible;
   left: 0;
+  
 }
 
 .menu__btn > span,

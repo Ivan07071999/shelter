@@ -1118,7 +1118,7 @@ footer {
   position: relative;
   top: 231px;
   padding: 34px 24px;
-  color: #333;
+
   font-size: 32px;
   font-weight: 400;
   text-decoration: none;
@@ -1126,7 +1126,7 @@ footer {
   
 }
 .lnk1 {
-color: #545454;
+ color: #cdcdcd;
 }
 .lnk1:hover {
     color: white;
